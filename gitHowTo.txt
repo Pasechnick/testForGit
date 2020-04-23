@@ -68,4 +68,14 @@ so it will pull any changes that have been made since we were pulling from the r
 > git push origin master // will push the changes to the project on github
 
 
+III. Working with branches 
+
+> git branch calc-divide  //creating the branch 
+
+> git branch // shows all local branches
+< calc-divide
+< * master  // means that is the branch i am working on right now 
+
+> git checkout calc-divide //to switch on the specific branch to work on 
+
 
