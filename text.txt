@@ -1,1 +1,32 @@
-second change here 
+some basic git commands: 
+
+> git --version 
+
+> git config --global user.name "Alexander Mitupov" // sets up the name of the user
+
+> git config --global user.email "mitupov@gmail.com" // sets up the email of the user
+
+> git config --list // shows the global configuration variables (values) on the mahine or env
+
+> git help config // shows the manuall for the config 
+
+> git config --help // same help action
+
+
+
+1. scenerios where there is a LOCAL project
+
+> git init // inside of the project to make this project work under git 
+> git status // to see what files are being tracked 
+> touch .gitignore // create the ignore files directory to ignore some specific files by puttng the whole name of the file there
+(we add this files there to ignore them) or we could add all (with "*" sign) exp: *.py - will ignore all python files 
+
+> git add -A //adds all untracked files to commit
+>
+
+
+
+
+
+
+
