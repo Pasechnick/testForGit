@@ -14,7 +14,7 @@ some basic git commands:
 
 
 
-1. scenerios where there is a LOCAL project
+I. scenerios where there is a LOCAL project
 
 > git init // inside of the project to make this project work under git 
 3. > git status // to see what files are being tracked 
