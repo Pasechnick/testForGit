@@ -17,14 +17,20 @@ some basic git commands:
 1. scenerios where there is a LOCAL project
 
 > git init // inside of the project to make this project work under git 
-> git status // to see what files are being tracked 
+3. > git status // to see what files are being tracked 
 > touch .gitignore // create the ignore files directory to ignore some specific files by puttng the whole name of the file there
 (we add this files there to ignore them) or we could add all (with "*" sign) exp: *.py - will ignore all python files 
 
-> git add -A //adds all untracked files to commit
->
+1. > git add -A // adds all untracked files to commit -> to staging area
+> git reset fileName  // if we want to remove a specific file from the commit (staged area)
+> git reset // will cancel the commiting of the all files so they are moved into the working directory back
 
 
+
+
+2. > git commit -m "initial commit"  // commiting 
+
+4. > git log // shows the whole commiting and adding log
 
 
 
