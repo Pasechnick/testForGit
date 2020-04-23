@@ -14,7 +14,7 @@ some basic git commands:
 
 
 
-I. scenerios where there is a LOCAL project
+I. Scenerio where there is a LOCAL project
 
 > git init // inside of the project to make this project work under git 
 3. > git status // to see what files are being tracked 
@@ -26,13 +26,46 @@ I. scenerios where there is a LOCAL project
 > git reset // will cancel the commiting of the all files so they are moved into the working directory back
 
 
-
-
 2. > git commit -m "initial commit"  // commiting 
 
 4. > git log // shows the whole commiting and adding log
 
 
+
+II. Scenerio where there is a remote repo with a project i need to work with 
+
+> git clone <url> <where to clone> // will clone the github reposotory to my mashine
+
+> git clone https://github.com/Pasechnick/Flask-Blog.git .   // "." means the current directory
+
+> git remote -v  // will show the info to the repo (locaion and origin)
+
+> git remote -a
+
+> git branch -a // shows  brunches not only remotly but also localy
+
+
+
+working with the downloaded remote repo: 
+
+make some changes or add something...
+
+1. we commit this changes localy first
+
+> git diff // shows differents changes i made in the code
+
+> git add -A // adding to the stage
+
+> git status // to see the files are ready to be commited
+
+> git commit -m "make some changes..."
+
+2. we push this changes to github so others could see them
+
+> git pull origin master // it may happen that while we were working on our changes other people have allready made some thanges and pushed those 
+so it will pull any changes that have been made since we were pulling from the repo last time.
+
+> git push origin master // will push the changes to the project on github
 
 
 
